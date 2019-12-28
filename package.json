@@ -1,0 +1,25 @@
+{
+  "name": "haokan-nuxt",
+  "version": "1.0.0",
+  "description": "My first-class Nuxt.js project",
+  "author": "songshuzhong",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "consistent": "^1.1.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "nuxt": "^2.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "postcss-functions": "^3.0.0",
+    "postcss-plugin-px2rem": "^0.8.1"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+<head {{ HEAD_ATTRS }}>
+  {{ HEAD }}
+  <script type="text/javascript">
+    (function flexible (window, document) {
+      var docEl = document.documentElement
+      var dpr = window.devicePixelRatio || 1
+      var maxWidth = 828;
+      // adjust body font size
+      function setBodyFontSize () {
+        if (document.body) {
+          document.body.style.maxWidth = maxWidth + 'px';
+          document.body.style.margin = '0 auto';
+        }
+        else {
+          document.addEventListener('DOMContentLoaded', setBodyFontSize)
+        }
+      }
+      setBodyFontSize();
+      // set 1rem = viewWidth / 10
+      function setRemUnit () {
+        var clientWidth = docEl.clientWidth > maxWidth ? maxWidth : docEl.clientWidth;
+        var rem = clientWidth / 10;
+        docEl.style.fontSize = rem + 'px'
+      }
+      setRemUnit()
+      // reset rem unit on page resize
+      window.addEventListener('resize', setRemUnit)
+      window.addEventListener('pageshow', function (e) {
+        if (e.persisted) {
+          setRemUnit()
+        }
+      })
+    }(window, document))
+  </script>
+</head>
+<body {{ BODY_ATTRS }}>
+{{ APP }}
+</body>
+</html>
