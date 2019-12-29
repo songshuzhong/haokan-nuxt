@@ -21,10 +21,10 @@
 </template>
 
 <script>
-export default {
-  name: 'AlbumList',
-  props: ['videos']
-}
+  export default {
+    name: 'AlbumList',
+    props: ['videos']
+  }
 </script>
 
 <style lang="less" scoped>

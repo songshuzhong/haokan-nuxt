@@ -20,13 +20,13 @@
         default: function() {
           return [
             {
-              path: '/videolist',
+              path: '/',
               text: '视频'
             }, {
-              path: '/minilist',
+              path: '/minivideo',
               text: '小视频'
             }, {
-              path: '/albumlist',
+              path: '/album',
               text: '合辑'
             }];
         }

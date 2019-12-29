@@ -15,10 +15,10 @@
 </template>
 
 <script>
-export default {
-  name: 'MiniList',
-  props: ['videos']
-}
+  export default {
+    name: 'MiniList',
+    props: ['videos']
+  }
 </script>
 
 <style lang="less" scoped>

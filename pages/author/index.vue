@@ -6,7 +6,7 @@
       :key="key"
     >
       <div class="title">{{video.content.title}}</div>
-      <img class="video" :src="video.content.cover_src" />
+      <lazy-image class="video" :placeholder="video.content.cover_src" />
       <div class="duration">
         <span>{{video.content.duration}}</span>
         <div />
@@ -28,10 +28,12 @@
 </template>
 
 <script>
-export default {
-  name: 'VideoList',
-  props: ['videos']
-}
+  import LazyImage from '../../components/lazy-image'
+  export default {
+    name: 'VideoList',
+    components: {LazyImage},
+    props: ['videos']
+  }
 </script>
 
 <style lang="less" scoped>

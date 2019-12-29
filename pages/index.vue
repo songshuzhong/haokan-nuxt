@@ -29,21 +29,21 @@
 </template>
 
 <script>
-import fetch from 'isomorphic-unfetch'
-import Logo from '../components/Logo.vue'
+  import fetch from 'isomorphic-unfetch'
+  import Logo from '../components/Logo.vue'
 
-export default {
-  components: {
-    Logo
-  },
-  async asyncData(context) {
-    const res = await fetch(`https://haokan.baidu.com/haokan/wiseauthor?app_id=${context.route.query.app_id}&_format=json`)
-    const {data: {response}} = await res.json();
-    return {
-      ...response
-    };
+  export default {
+    components: {
+      Logo
+    },
+    async asyncData(context) {
+      const res = await fetch(`https://haokan.baidu.com/haokan/wiseauthor?app_id=${context.route.query.app_id}&_format=json`)
+      const {data: {response}} = await res.json();
+      return {
+        ...response
+      };
+    }
   }
-}
 </script>
 
 <style>

@@ -10,16 +10,10 @@
   import fetch from 'isomorphic-unfetch'
   import AuthorHeader from './author/header'
   import AuthorTabs from './author/tabs'
-  import VideoList from './author/videolist'
-  import MiniList from './author/minilist'
-  import Logo from '../components/Logo.vue'
 
   export default {
     components: {
-      MiniList,
-      VideoList,
       AuthorTabs,
-      Logo,
       AuthorHeader
     },
     async asyncData(context) {
@@ -28,9 +22,6 @@
       return {
         ...response
       };
-    },
-    created() {
-      this.$router.push({path: '/author/videolist', query: {app_id: this.$route.query.app_id}})
     }
   }
 </script>
