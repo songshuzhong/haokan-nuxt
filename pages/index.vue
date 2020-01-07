@@ -46,7 +46,7 @@
   }
 </script>
 
-<style>
+<style lang="less" scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -76,5 +76,10 @@
 
 .links {
   padding-top: 15px;
+  a {
+    &:nth-child(even) {
+      color: orange !important;
+    }
+  }
 }
 </style>
