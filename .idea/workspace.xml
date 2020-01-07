@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fc4c786-3044-471a-811e-a465f02ddf67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VmEzOrgn4ySlWJEOW8y8xkl00A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc4c786-3044-471a-811e-a465f02ddf67" name="Default Changelist" comment="" />
+      <created>1577850132100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577850132100</updated>
+      <workItem from="1577850135059" duration="112000" />
+      <workItem from="1577929330793" duration="796000" />
+      <workItem from="1577945677334" duration="228000" />
+      <workItem from="1578043407004" duration="193000" />
+      <workItem from="1578380037183" duration="1636000" />
+      <workItem from="1578381773607" duration="91000" />
+    </task>
+    <task id="LOCAL-00001" summary="error: message">
+      <created>1578380304195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578380304195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="error: message" />
+    <option name="LAST_COMMIT_MESSAGE" value="error: message" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="369" y="166" key="#build" timestamp="1578043483925">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="369" y="166" key="#build/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578043483925" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577850164574">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1577850164574" />
+    <state x="294" y="64" key="CommitChangelistDialog2" timestamp="1578381879953">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="294" y="64" key="CommitChangelistDialog2/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578381879953" />
+    <state width="542" height="150" key="Git.Branch.Popup" timestamp="1578381788035">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="542" height="150" key="Git.Branch.Popup/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578381788035" />
+    <state width="1419" height="448" key="GridCell.Tab.0.bottom" timestamp="1578043598217">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1899" height="505" key="GridCell.Tab.0.bottom/0.23.1440.877/-340.-1057.1920.1057@-340.-1057.1920.1057" timestamp="1577930229410" />
+    <state width="1419" height="448" key="GridCell.Tab.0.bottom/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578043598217" />
+    <state width="1419" height="324" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1577850361988" />
+    <state width="1419" height="448" key="GridCell.Tab.0.center" timestamp="1578043598217">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1899" height="505" key="GridCell.Tab.0.center/0.23.1440.877/-340.-1057.1920.1057@-340.-1057.1920.1057" timestamp="1577930229408" />
+    <state width="1419" height="448" key="GridCell.Tab.0.center/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578043598217" />
+    <state width="1419" height="324" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1577850361987" />
+    <state width="1419" height="448" key="GridCell.Tab.0.left" timestamp="1578043598216">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1899" height="505" key="GridCell.Tab.0.left/0.23.1440.877/-340.-1057.1920.1057@-340.-1057.1920.1057" timestamp="1577930229406" />
+    <state width="1419" height="448" key="GridCell.Tab.0.left/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578043598216" />
+    <state width="1419" height="324" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1577850361987" />
+    <state width="1419" height="448" key="GridCell.Tab.0.right" timestamp="1578043598217">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1899" height="505" key="GridCell.Tab.0.right/0.23.1440.877/-340.-1057.1920.1057@-340.-1057.1920.1057" timestamp="1577930229409" />
+    <state width="1419" height="448" key="GridCell.Tab.0.right/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578043598217" />
+    <state width="1419" height="324" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1577850361988" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1578380844409">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578380844409" />
+    <state x="501" y="333" key="git4idea.rebase.GitRebaseDialog" timestamp="1578381813926">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="501" y="333" key="git4idea.rebase.GitRebaseDialog/0.23.1440.877/-340.-1057.1920.1057@0.23.1440.877" timestamp="1578381813926" />
+  </component>
+</project>
